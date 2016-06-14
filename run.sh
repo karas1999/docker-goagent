@@ -11,4 +11,3 @@ for i in ${require_env[@]}; do
 done
 echo "${USERNAME} ${PASSWORD}" > /opt/goagent/goagentvps.conf
 sh /opt/goagent/goagentvps.sh start
-tail -F /opt/goagent/log/*.log
